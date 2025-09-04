@@ -1,2 +1,22 @@
-# tli-international
-一个包含中文，英文，马来语的猎头网战。
+# portal-international
+包含中文、英文、马来语的猎头网站。
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
