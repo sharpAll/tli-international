@@ -13,7 +13,7 @@
           <div class="info">
             <div class="info-title">企业招聘</div>
             <p>
-              <span class="red">contact@talentlinkinternational.com</span>
+              <span class="red">jane_lee@talentlink-international.com</span>
             </p>
           </div>
         </div>
@@ -23,7 +23,7 @@
             <div class="info-title">个人求职</div>
             <p>
               请发送您的简历到
-              <span class="red">contact@talentlinkinternational.com</span
+              <span class="red">zara_tan@talentlink-international.com</span
               >，如有合适岗位，相应的行业猎头直接与您联系
             </p>
           </div>

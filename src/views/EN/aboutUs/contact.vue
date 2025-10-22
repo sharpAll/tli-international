@@ -14,7 +14,7 @@
           <div class="info">
             <div class="info-title">Enterprise recruitment</div>
             <p>
-              <span class="red">contact@talentlinkinternational.com</span>
+              <span class="red">jane_lee@talentlink-international.com</span>
             </p>
           </div>
         </div>
@@ -24,7 +24,7 @@
             <div class="info-title">Personal Job Seeker</div>
             <p>
               Please send your CV to
-              <span class="red">contact@talentlinkinternational.com</span>,if
+              <span class="red">zara_tan@talentlink-international.com</span>,if
               there is a suitable post for you, the hunter will contact you
               directly.
             </p>

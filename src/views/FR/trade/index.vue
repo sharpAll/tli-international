@@ -11,6 +11,9 @@
           <span>Automotif</span>
           <span>Pengangkutan</span>
           <span>rel</span>
+          <br/>
+          <span>Jane Lee</span>
+          <span>jane_lee@talentlink-international.com</span>
         </div>
       </div>
     </div>
@@ -24,6 +27,9 @@
           <span>peranti perubatan</span>
           <span>perkhidmatan perubatan</span>
           <span>perubatan klinikal</span>
+          <br/>
+          <span>Zara Tan</span>
+          <span>zara_tan@talentlink-international.com</span>
         </div>
       </div>
     </div>
@@ -38,6 +44,9 @@
           <span>Modal Risiko / Swasta</span>
           <span>Penggabungan / Penyelesaian semula</span>
           <span>Undang-undang Buruh</span>
+          <br/>
+          <span>Jeffery Wu</span>
+          <span>jeffery_wu@talentlink-international.com</span>
         </div>
       </div>
     </div>
@@ -52,6 +61,9 @@
           <span>Internet perkara-perkara</span>
           <span>Permainan</span>
           <span>Kewangan Internet</span>
+          <br/>
+          <span>Panika Lim</span>
+          <span>panika_lim@talentlink-international.com</span>
         </div>
       </div>
     </div>
@@ -66,10 +78,13 @@
           <span>Insurans</span>
           <span>Teknologi Kewangan</span>
           <span>Sekuriti Dana</span>
+          <br/>
+          <span>Nurul Binti Kamaruzaman</span>
+          <span>nurul_binti_kamaruzaman@talentlink-international.com</span>
         </div>
       </div>
     </div>
-    <el-divider>
+    <!-- <el-divider>
       <div class="title">Fungsi Perniagaan</div>
     </el-divider>
     <div class="trade-bg-box">
@@ -82,7 +97,7 @@
           <span>pentadbiran</span>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 <script>
@@ -140,15 +155,15 @@ export default {
   );
   text-align: center;
   padding-top: 80px;
-  opacity: 0;
+  /* opacity: 0; */
 }
 .trade-bg-box .trade-bg .trade-info span {
   margin: 0 10px;
   font-size: 22px;
   color: #333;
 }
-.trade-bg-box .trade-bg:hover .trade-info {
+/* .trade-bg-box .trade-bg:hover .trade-info {
   transition: opacity 0.3s linear;
   opacity: 1;
-}
+} */
 </style>

@@ -13,7 +13,7 @@
           <div class="info">
             <div class="info-title">Pengambilan Syarikat</div>
             <p>
-              <span class="red">contact@talentlinkinternational.com</span>
+              <span class="red">jane_lee@talentlink-international.com</span>
             </p>
           </div>
         </div>
@@ -23,7 +23,7 @@
             <div class="info-title">Carian pekerjaan peribadi</div>
             <p>
               Sila hantar resume anda kepada
-              <span class="red">contact@talentlinkinternational.com</span>
+              <span class="red">zara_tan@talentlink-international.com</span>
                Sekiranya ada jawatan yang sesuai, pengejar industri yang sesuai akan menghubungi anda secara langsung.
             </p>
           </div>
