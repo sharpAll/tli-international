@@ -9,79 +9,53 @@
       </el-carousel-item>
     </el-carousel>
     <el-divider>
-      <span class="divider-title">Clients first & Prompt response</span>
+      <span class="divider-title">客戶至上 & 秒速回應</span>
     </el-divider>
     <div class="divider-info">
-      Remind that the time is the most expensive cost. TLI responses promptly
-      and recruits efficiently, with the result of saving the clients’ precious
-      time. Alongside the past ten (10) years, TLI recommended 205586 candidates
-      and arranged the interview for 99382 candidates per year.
+      時間是最昂貴的成本，Talent Link International(TLI)國際獵頭機構快速響應、高效招聘，為您節省寶貴時間。  過去10年來，平均每年推薦候選人205,586位，面試99,382人/次。
     </div>
     <div class="center-box">
       <el-row :gutter="20">
         <el-col :span="6">
           <div class="grid-content bg-purple">
             <div class="home-icon icon-1"></div>
-            <div class="home-title">
-              Contracts with 13255 enterprises partners
-            </div>
+            <div class="home-title">13255家簽約客戶</div>
             <div class="home-content">
-              TLI has created partnerships with 13255 enterprises with 30
-              industries, and recruited successfully more than 200000 posts. TLI
-              provides services for high-level talents digging and seeking,
-              professional evaluation and background-checking, with an aim to
-              make it reality for the candidate ready for post within 7 to 30
-              days.
+              TLI已與30個行業的13,255家企業建立合作伙伴關係，成功招聘20,000多個職位。TLI提供全方位高端人才搜尋、專業評測及背景調查服務，可實現平均7－30天人選上崗。
             </div>
           </div>
         </el-col>
         <el-col :span="6">
           <div class="grid-content bg-purple">
             <div class="home-icon icon-2"></div>
-            <div class="home-title">
-              International Companies & Conglomerates
-            </div>
+            <div class="home-title">跨國公司 & 企業集團</div>
             <div class="home-content">
-              With outstanding head-hunting services, TLI obtained the
-              cooperation with numerous international companies and
-              conglomerates. Based on the principle of “tri-win” strategy, TLI
-              marches forward and expands the market continuously.
+              以卓越的獵頭服務贏得眾多跨國公司與企業集團的合作，以"三贏"發展戰略贏取市場發展空間。
             </div>
           </div>
         </el-col>
         <el-col :span="6">
           <div class="grid-content bg-purple">
             <div class="home-icon icon-3"></div>
-            <div class="home-title">
-              State-owned enterprises & Mid and Large scale private companies
-            </div>
+            <div class="home-title">國企&大中型私企</div>
             <div class="home-content">
-              With more than 60% clients in state-owned enterprises & mid and
-              large scale companies, of which 80% chose to cooperate once again.
-              35% of the clients recommended TLI to other HRs. More than 5000
-              clients realized fast development with geometric increase rate in
-              their profits.
+              國企及大中型私企佔TLI客戶60%以上，80%的客戶選擇再次合作，35%客戶向其他HR推薦TLI獵頭機構，5000多家客戶獲得迅猛發展，實現了利潤幾何級增長。
             </div>
           </div>
         </el-col>
         <el-col :span="6">
           <div class="grid-content bg-purple">
             <div class="home-icon icon-4"></div>
-            <div class="home-title" style="line-height: 51.2px;">
-              Public-listed companies & Startups
-            </div>
+            <div class="home-title">上市企業&創業公司</div>
             <div class="home-content">
-              Up to the year 2019, TLI has helped and witnessed more than 100
-              companies go public and listed, within which the high-level
-              talents played an indispensable key role. TLI’s high-level talents
-              resource services can make the startups move further and further…
+              截至2019年，TLI已幫助上百家創業公司客戶成長為上市公司，高端人才成為其成功關鍵因素。TLI獵頭的優質人才資源服務支持，讓創業公司走得更遠。
             </div>
           </div>
         </el-col>
       </el-row>
     </div>
     <el-divider>
-      <span class="divider-title">TLI anticipates to cooperate with you</span>
+      <span class="divider-title">TLI國際獵頭機構期待與您合作</span>
     </el-divider>
     <div class="center-box">
       <div class="bg-box">
@@ -91,52 +65,43 @@
               <i
                 class="el-icon-check"
                 style="color:#606ecd;font-size:20px;margin-right:10px"
-              ></i>
-              According to your requirements, TLI proceeds with talents digging
-              and seeking, selecting, evaluating, recommending, interviewing and
-              background-checking.
+              ></i
+              >根據您的需求高效尋訪、篩選、測評、推薦、面試、做背景調查
             </li>
             <li>
               <i
                 class="el-icon-check"
                 style="color:#606ecd;font-size:20px;margin-right:10px"
-              ></i>
-              Keep in mind your development strategy, TLI provides solutions for
-              talents structure, training and cultivating, retaining etc.
+              ></i
+              >根據貴公司的發展戰略提供人才架構、培養、留用等優質的解決方案
             </li>
             <li>
               <i
                 class="el-icon-check"
                 style="color:#606ecd;font-size:20px;margin-right:10px"
-              ></i>
-              Respond to your recruitment requirements at any time, any place,
-              to minimize your cost for communication and recruitment.
+              ></i
+              >隨時隨地響應您的招聘需求，最大限度為您降低溝通成本、招聘成本
             </li>
             <li>
               <i
                 class="el-icon-check"
                 style="color:#606ecd;font-size:20px;margin-right:10px"
-              ></i>
-              Focusing on high-level talents market, TLI has rich operational
-              experiences for the posts valued from USD15,000 to 150,000 annual
-              salary.
+              ></i
+              >專注高端人才市場，綜合年薪人民幣10萬至100萬+的職位均有豐富運作經驗
             </li>
             <li>
               <i
                 class="el-icon-check"
                 style="color:#606ecd;font-size:20px;margin-right:10px"
-              ></i>
-              Sharing with you the market insights and first-hand information,
-              TLI is based in Hong Kong and eyed toward the whole globe.
+              ></i
+              >與您分享行業洞見與一手資訊，立足香港，放眼全球
             </li>
             <li>
               <i
                 class="el-icon-check"
                 style="color:#606ecd;font-size:20px;margin-right:10px"
-              ></i>
-              Visiting the best enterprises both mainland TLI and overseas
-              periodically, TLI shares with you the most advanced operation and
-              management theory and practice.
+              ></i
+              >定期參訪國內外優秀企業，與您分享全球先進經營管理理論與實務
             </li>
           </ul>
         </div>
@@ -151,7 +116,7 @@
         icon="el-icon-s-flag"
         style="padding: 15px 40px;font-size:18px"
         @click="$router.push('./trade')"
-        >SPECIALIZED INDUSTRIES</el-button
+        >專注行業及領域</el-button
       >
     </div>
   </div>
@@ -220,13 +185,12 @@ export default {
 }
 .bg-box .bg-content {
   margin-right: 500px;
-  height: 307px;
 }
 .bg-box .bg-content ul {
-  padding: 10px 0 10px 20px;
+  padding: 30px 0 30px 20px;
 }
 .bg-box .bg-content ul li {
-  line-height: 16px;
+  line-height: 30px;
   font-size: 16px;
   margin: 10px 0;
 }

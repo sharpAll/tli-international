@@ -1,6 +1,6 @@
 const user = {
   state: {
-    curLan: "CH"
+    curLan: "CHT"
   },
   mutations: {
     SET_LANGUAGE(state, curLan) {

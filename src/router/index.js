@@ -3,23 +3,23 @@ import VueRouter from "vue-router";
 //布局组件
 import Layout from "@/components/Layout.vue";
 //首页
-import CHHome from "@/views/CH/home";
+import CHTHome from "@/views/CHT/home";
 //关于我们
-import CHAboutUs from "@/views/CH/aboutUs";
+import CHTAboutUs from "@/views/CHT/aboutUs";
 //联系我们
-import CHContactUs from "@/views/CH/aboutUs/contact";
+import CHTContactUs from "@/views/CHT/aboutUs/contact";
 //服务范畴
-import CHRange from "@/views/CH/range";
+import CHTRange from "@/views/CHT/range";
 //服务内容与流程
-import CHService from "@/views/CH/service";
+import CHTService from "@/views/CHT/service";
 //愿景
-import CHVision from "@/views/CH/vision";
+import CHTVision from "@/views/CHT/vision";
 //行业
-import CHTrade from "@/views/CH/trade";
+import CHTTrade from "@/views/CHT/trade";
 //客户
-import CHCustom from "@/views/CH/custom";
+import CHTCustom from "@/views/CHT/custom";
 //评价
-import CHEvaluate from "@/views/CH/custom/evaluate";
+import CHTEvaluate from "@/views/CHT/custom/evaluate";
 /****************英文 ***********/
 //首页
 import ENHome from "@/views/EN/home";
@@ -73,60 +73,60 @@ const routes = [
     path: "/",
     name: "layout",
     component: Layout,
-    redirect: "CH/home",
+    redirect: "CHT/home",
     children: [
       {
-        path: "CH/home",
-        component: CHHome,
-        name: "CH/home",
+        path: "CHT/home",
+        component: CHTHome,
+        name: "CHT/home",
         meta: { title: "首页", parent: "" }
       },
       {
-        path: "CH/aboutUs",
-        component: CHAboutUs,
-        name: "CH/aboutUs",
+        path: "CHT/aboutUs",
+        component: CHTAboutUs,
+        name: "CHT/aboutUs",
         meta: { title: "关于我们", parent: "" }
       },
       {
-        path: "CH/aboutUs/contactUs",
-        component: CHContactUs,
-        name: "CH/contactUs",
+        path: "CHT/aboutUs/contactUs",
+        component: CHTContactUs,
+        name: "CHT/contactUs",
         meta: { title: "联系我们", parent: "" }
       },
       {
-        path: "CH/range",
-        component: CHRange,
-        name: "CH/range",
+        path: "CHT/range",
+        component: CHTRange,
+        name: "CHT/range",
         meta: { title: "服务范畴", parent: "" }
       },
       {
-        path: "CH/service",
-        component: CHService,
-        name: "CH/service",
+        path: "CHT/service",
+        component: CHTService,
+        name: "CHT/service",
         meta: { title: "服务内容与流程", parent: "" }
       },
       {
-        path: "CH/vision",
-        component: CHVision,
-        name: "CH/vision",
+        path: "CHT/vision",
+        component: CHTVision,
+        name: "CHT/vision",
         meta: { title: "愿景、使命与优势", parent: "" }
       },
       {
-        path: "CH/trade",
-        component: CHTrade,
-        name: "CH/trade",
+        path: "CHT/trade",
+        component: CHTTrade,
+        name: "CHT/trade",
         meta: { title: "专注行业及领域", parent: "" }
       },
       {
-        path: "CH/custom",
-        component: CHCustom,
-        name: "CH/custom",
+        path: "CHT/custom",
+        component: CHTCustom,
+        name: "CHT/custom",
         meta: { title: "我们的客户", parent: "" }
       },
       {
-        path: "CH/custom/evaluate",
-        component: CHEvaluate,
-        name: "CH/custom/evaluate",
+        path: "CHT/custom/evaluate",
+        component: CHTEvaluate,
+        name: "CHT/custom/evaluate",
         meta: { title: "客户评价", parent: "" }
       },
       // 英文

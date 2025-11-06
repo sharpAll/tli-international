@@ -36,3 +36,6 @@ body,html{
 .el-steps--simple{
     padding: 13px 4%;
 }
+.center-box .el-step.is-simple .el-step__title {
+  font-size: 15px;
+}

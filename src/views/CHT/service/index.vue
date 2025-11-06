@@ -1,41 +1,30 @@
 <template>
   <div class="block">
     <el-divider>
-      <div class="title">SERVICE CONTENTS</div>
+      <div class="title">服務內容</div>
     </el-divider>
     <div class="center-box" style="text-align:center">
       <img
         style="margin:auto"
         width="700px"
-        src="../../../assets/img/service/service-1-en.png"
+        src="../../../assets/img/service/service-1-cht.png"
       />
     </div>
     <el-divider>
-      <div class="title">服务流程</div>
+      <div class="title">服務流程</div>
     </el-divider>
     <div class="center-box" style="text-align:center;margin-top:40px">
-      <el-steps :active="4" simple size="small">
-        <el-step
-          title="Recruitment with whole process"
-          icon="el-icon-edit"
-        ></el-step>
-        <el-step
-          title="Job vacancies all fields covered"
-          icon="el-icon-s-custom"
-        ></el-step>
-        <el-step
-          title="Management of all channels"
-          icon="el-icon-refresh-right"
-        ></el-step>
-        <el-step
-          title="Control of the whole process"
-          icon="el-icon-message-solid"
-        ></el-step>
+      <!-- <img style="margin:auto" width="800px" src="../../../assets/img/service/service-2.png" /> -->
+      <el-steps :active="4" simple>
+        <el-step title="全流程招聘" icon="el-icon-edit"></el-step>
+        <el-step title="職位全覆蓋" icon="el-icon-s-custom"></el-step>
+        <el-step title="全管道管理" icon="el-icon-refresh-right"></el-step>
+        <el-step title="流程全管控" icon="el-icon-message-solid"></el-step>
       </el-steps>
       <img
         style="margin:auto"
         width="900px"
-        src="../../../assets/img/service/service-2-en.png"
+        src="../../../assets/img/service/service-2-cht.png"
       />
     </div>
   </div>
@@ -48,9 +37,6 @@ export default {
 };
 </script>
 <style>
-.center-box .el-step.is-simple:not(:last-of-type) .el-step__title {
-  max-width: 80%;
-}
 .center-box .el-step__title.is-finish {
   color: #606ecd;
 }

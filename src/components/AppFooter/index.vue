@@ -1,6 +1,6 @@
 <template>
   <footer class="footer">
-    <template v-if="curLanguage == 'CH'">
+    <template v-if="curLanguage == 'CHT'">
       <div class="content">
         <div class="logo">
           <img src="../../assets/img/title.png" height="50px" />
@@ -8,13 +8,13 @@
         <div class="map" style="left: 260px;">
           <div class="title">网站地图</div>
           <ul>
-            <li @click="$router.push('/CH/home')">首页</li>
-            <li @click="$router.push('/CH/aboutUs')">关于我们</li>
-            <li @click="$router.push('/CH/range')">服务范畴</li>
-            <li @click="$router.push('/CH/service')">服务内容与流程</li>
-            <li @click="$router.push('/CH/vision')">愿景使命与优势</li>
-            <li @click="$router.push('/CH/trade')">专注行业及领域</li>
-            <li @click="$router.push('/CH/custom')">客户及评价</li>
+            <li @click="$router.push('/CHT/home')">首頁</li>
+            <li @click="$router.push('/CHT/aboutUs')">關於我們</li>
+            <li @click="$router.push('/CHT/range')">服務範疇</li>
+            <li @click="$router.push('/CHT/service')">服務內容與流程</li>
+            <li @click="$router.push('/CHT/vision')">愿景使命與優勢</li>
+            <li @click="$router.push('/CHT/trade')">專注行業及領域</li>
+            <li @click="$router.push('/CHT/custom')">客戶及評價</li>
           </ul>
         </div>
       </div>
@@ -31,13 +31,13 @@
             <li @click="$router.push('/EN/aboutUs')">About us</li>
             <li @click="$router.push('/EN/range')">Services Covered</li>
             <li @click="$router.push('/EN/service')">
-              Services Contests&.Process
+              Services Contests&Process
             </li>
             <li @click="$router.push('/EN/vision')">
               Vision,Mission and Advantages
             </li>
             <li @click="$router.push('/EN/trade')">Specialized Industries</li>
-            <li @click="$router.push('/EN/custom')">Clients&.Evaluations</li>
+            <li @click="$router.push('/EN/custom')">Clients&Evaluations</li>
           </ul>
         </div>
       </div>

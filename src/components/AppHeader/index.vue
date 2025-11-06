@@ -1,13 +1,13 @@
 <template>
   <header class="header">
-    <template v-if="curLanguage == 'CH'">
+    <template v-if="curLanguage == 'CHT'">
       <div class="logo">
         <div class="container u-cb">
           <a href="#" class="u-fl">
             <img src="../../assets/img/title.png" height="50px" alt />
           </a>
           <div class="Language u-fr">
-            <a class="active" @click="switchLanguage('CH')">中文</a>
+            <a class="active" @click="switchLanguage('CHT')">中文</a>
             <a @click="switchLanguage('EN')">English</a>
             <a @click="switchLanguage('FR')">Bahasa Melayu</a>
           </div>
@@ -15,32 +15,32 @@
       </div>
       <nav class="nav">
         <ul class="container menu-box u-cb">
-          <router-link to="/CH/home" tag="li">
-            <span class="menu-item">首页</span>
+          <router-link to="/CHT/home" tag="li">
+            <span class="menu-item">首頁</span>
           </router-link>
 
-          <router-link to="/CH/aboutUs" tag="li">
-            <span class="menu-item">关于我们</span>
+          <router-link to="/CHT/aboutUs" tag="li">
+            <span class="menu-item">關於我們</span>
           </router-link>
 
-          <router-link to="/CH/range" tag="li">
-            <span class="menu-item">服务范畴</span>
+          <router-link to="/CHT/range" tag="li">
+            <span class="menu-item">服務範疇</span>
           </router-link>
 
-          <router-link to="/CH/service" tag="li">
-            <span class="menu-item">服务内容与流程</span>
+          <router-link to="/CHT/service" tag="li">
+            <span class="menu-item">服務內容與流程</span>
           </router-link>
 
-          <router-link to="/CH/vision" tag="li">
-            <span class="menu-item">愿景使命与优势</span>
+          <router-link to="/CHT/vision" tag="li">
+            <span class="menu-item">愿景使命與優勢</span>
           </router-link>
 
-          <router-link to="/CH/trade" tag="li">
-            <span class="menu-item">专注行业及领域</span>
+          <router-link to="/CHT/trade" tag="li">
+            <span class="menu-item">專注行業及領域</span>
           </router-link>
 
-          <router-link to="/CH/custom" tag="li">
-            <span class="menu-item">客户及评价</span>
+          <router-link to="/CHT/custom" tag="li">
+            <span class="menu-item">客戶及評價</span>
           </router-link>
         </ul>
       </nav>
@@ -52,7 +52,7 @@
             <img src="../../assets/img/title.png" height="50px" alt />
           </a>
           <div class="Language u-fr">
-            <a @click="switchLanguage('CH')">中文</a>
+            <a @click="switchLanguage('CHT')">中文</a>
             <a class="active" @click="switchLanguage('EN')">English</a>
             <a @click="switchLanguage('FR')">Bahasa Melayu</a>
           </div>
@@ -74,7 +74,7 @@
 
           <router-link to="/EN/service" tag="li">
             <span class="menu-item" style="line-height:25px"
-              >Services Contests&.Process</span
+              >Services Contests&Process</span
             >
           </router-link>
 
@@ -91,7 +91,7 @@
           </router-link>
 
           <router-link to="/EN/custom" tag="li">
-            <span class="menu-item">Clients&.Evaluations</span>
+            <span class="menu-item">Clients&Evaluations</span>
           </router-link>
         </ul>
       </nav>
@@ -103,7 +103,7 @@
             <img src="../../assets/img/title.png" height="50px" alt />
           </a>
           <div class="Language u-fr">
-            <a @click="switchLanguage('CH')">中文</a>
+            <a @click="switchLanguage('CHT')">中文</a>
             <a @click="switchLanguage('EN')">English</a>
             <a class="active" @click="switchLanguage('FR')">Bahasa Melayu</a>
           </div>
